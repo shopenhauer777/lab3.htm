@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Бүртгэлийн форм</h3>
+
+    <form method = "post" action = "">
+
+        <input type = "hidden" name = "subject" value = "Бүртгэл">
+
+        <p><label>Овог:
+            <input type = "text" id = "lastname" 
+                placeholder = "Овог" required /> (Овог)
+        </label></p>
+
+        <p><label>Нэр:
+            <input type = "text" id = "firstname" 
+                placeholder = "Овог" required /> (Нэр)
+        </label></p>
+
+        <p><label>Email:
+            <input type = "email" id = "name@domain.com" 
+                placeholder = "Овог" required /> (name@domain.com)
+        </label></p>
+
+    <detals>
+        <summary>Хэддүгээр курсын оюутан гэдгээ оруулна уу:</summary>
+
+        <input type = "text" id = "txtList"
+            placeholder = "Курсээ оруулна уу" list = "Курс" />
+        <datalist id = "Курс" />
+        <option value = "1-р курс">
+        <option value = "2-р курс">
+        <option value = "3-р курс">
+        <option value = "4-р курс">
+        <option value = "5-р курс">
+        </datalist>
+    </detals>
+
+    <p><input type="submit"></p>
+    </form>
+
+</body>
+</html>
